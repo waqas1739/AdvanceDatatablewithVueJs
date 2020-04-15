@@ -1,4 +1,5 @@
 <template>
+<!-- Defining the table with the content and also initializing the sorting and searching -->
   <v-data-table
     :headers="headers"
     :items="patients"
@@ -7,6 +8,8 @@
     :search="search"
     :custom-filter="filterText"
   >
+  <!-- Search bar and Editable Option-->
+  
     <template v-slot:top>
       <v-toolbar flat color="white">
         <v-toolbar-title>Patients DataTable</v-toolbar-title>
@@ -32,7 +35,7 @@
             <v-card-title>
               <span class="headline">{{ formTitle }}</span>
             </v-card-title>
-
+<!-- Editable Menu Option Functionality plus save and cancel options plus update options in "Action" menu-->
             <v-card-text>
               <v-container>
                 <v-row>
@@ -90,7 +93,7 @@
     </template>
   </v-data-table>
 </template>
-
+<!-- Somne data which can be shown in Columns with sorting and edit options-->
 <script>
   export default {
     data: () => ({
