@@ -10,7 +10,7 @@
           alt="Smart"
           class="shrink mr-2"
           contain
-          src="https://smart4diagnostics.com/wp-content/uploads/2019/03/s4dx_logo_w_150.png"
+          src="https://vuejs.org/"
           transition="scale-transition"
           width="40"
         />
@@ -20,11 +20,11 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://smart4diagnostics.com/"
+        href="https://vuejs.org/"
         target="_blank"
         text
       >
-        <span class="mr-2">smart4diagnostics modified datatable</span>
+        <span class="mr-2">modified datatable</span>
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
        </div>
