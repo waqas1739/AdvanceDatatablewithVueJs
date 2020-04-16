@@ -1,4 +1,4 @@
-# smart-diagnostics-datatablr
+# Advanced-DataTable-VueJS
 
 ## Project setup
 ```
